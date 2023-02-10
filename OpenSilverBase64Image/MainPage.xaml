@@ -1,0 +1,15 @@
+﻿<sdk:Page
+    x:Class="OpenSilverBase64Image.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+    xmlns:local="clr-namespace:OpenSilverBase64Image"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <StackPanel>
+        <TextBlock Text="Hello World!" x:Name="TextBlock1" Canvas.Left="20" Canvas.Top="30"/>
+        <Image x:Name="MyImage" Width="52" Height="60" Stretch="None" HorizontalAlignment="Center" VerticalAlignment="Center" />
+    </StackPanel>
+    
+</sdk:Page>
