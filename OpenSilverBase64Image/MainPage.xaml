@@ -10,6 +10,7 @@
     <StackPanel>
         <TextBlock Text="Hello World!" x:Name="TextBlock1" Canvas.Left="20" Canvas.Top="30"/>
         <Image x:Name="MyImage" Width="52" Height="60" Stretch="None" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <Image x:Name="MyImage2" Width="52" Height="60" Stretch="None" HorizontalAlignment="Center" VerticalAlignment="Center" />
     </StackPanel>
     
 </sdk:Page>
